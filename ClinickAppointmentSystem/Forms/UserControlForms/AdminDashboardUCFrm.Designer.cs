@@ -54,7 +54,7 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnSortBySched = new System.Windows.Forms.Button();
             this.btnSortByName = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbFilter = new System.Windows.Forms.ComboBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -314,7 +314,7 @@
             this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Controls.Add(this.btnSortBySched);
             this.panel2.Controls.Add(this.btnSortByName);
-            this.panel2.Controls.Add(this.comboBox1);
+            this.panel2.Controls.Add(this.cmbFilter);
             this.panel2.Controls.Add(this.txtSearch);
             this.panel2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(60)))), ((int)(((byte)(93)))));
@@ -356,15 +356,15 @@
             this.btnSortByName.Text = "Sort by Name";
             this.btnSortByName.UseVisualStyleBackColor = false;
             // 
-            // comboBox1
+            // cmbFilter
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(206, 15);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(180, 26);
-            this.comboBox1.TabIndex = 1;
-            this.comboBox1.Tag = "";
+            this.cmbFilter.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbFilter.FormattingEnabled = true;
+            this.cmbFilter.Location = new System.Drawing.Point(206, 15);
+            this.cmbFilter.Name = "cmbFilter";
+            this.cmbFilter.Size = new System.Drawing.Size(180, 26);
+            this.cmbFilter.TabIndex = 1;
+            this.cmbFilter.Tag = "";
             // 
             // txtSearch
             // 
@@ -431,7 +431,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtSearch;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbFilter;
         private System.Windows.Forms.Button btnSortBySched;
         private System.Windows.Forms.Button btnSortByName;
         private System.Windows.Forms.DataGridView dataGridView1;
