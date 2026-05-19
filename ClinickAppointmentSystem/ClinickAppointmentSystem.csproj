@@ -156,6 +156,8 @@
     <None Include="Resources\App-sign-with-logo-img.png" />
     <None Include="Resources\App-logo-with-name-img.png" />
     <None Include="Resources\App-logo-img.png" />
+    <None Include="Resources\App-report-banner-img.png" />
+    <None Include="Resources\App-sign-img.png" />
     <Content Include="Resources\boogsh welcome.png" />
     <Content Include="Resources\check.png" />
     <Content Include="Resources\CLINICKONLY.png" />
@@ -163,6 +165,16 @@
     <Content Include="Resources\ekis.png" />
     <Content Include="Resources\final na talagang login2.png" />
     <Content Include="Resources\hourglass.png" />
+    <None Include="Resources\ic-arrow.png" />
+    <None Include="Resources\ic-back-white.png" />
+    <None Include="Resources\ic-cancelled.png" />
+    <None Include="Resources\ic-completed.png" />
+    <None Include="Resources\ic-patient-records.png" />
+    <None Include="Resources\ic-pending.png" />
+    <None Include="Resources\ic-printer.png" />
+    <None Include="Resources\ic-records.png" />
+    <None Include="Resources\ic-reports.png" />
+    <None Include="Resources\ic-total.png" />
     <Content Include="Resources\Iconsss %283%29.png" />
     <Content Include="Resources\Iconsss %286%29.png" />
     <Content Include="Resources\Iconsss %288%29.png" />

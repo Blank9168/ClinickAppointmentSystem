@@ -118,19 +118,70 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="App-login-page-img" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\App-login-page-img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="App-welcome-page-img" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\App-welcome-page-img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="App-logo-img" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\App-logo-img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="App-sign-with-logo-img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\App-sign-with-logo-img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="App-welcome-page-img" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\App-welcome-page-img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="App-login-page-img" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\App-login-page-img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="App-logo-with-name-img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\App-logo-with-name-img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="App-logo-img" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="App-login-page-img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\App-login-page-img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="App-logo-img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\App-logo-img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="App-logo-with-name-img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\App-logo-with-name-img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="App-report-banner-img" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\App-report-banner-img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="App-sign-img" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\App-sign-img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="App-sign-with-logo-img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\App-sign-with-logo-img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="App-welcome-page-img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\App-welcome-page-img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic-arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic-arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic-back-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic-back-white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic-cancelled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic-cancelled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic-completed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic-completed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic-patient-records" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic-patient-records.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic-pending" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic-pending.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic-printer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic-printer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic-records" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic-records.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic-reports" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic-reports.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic-total" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic-total.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

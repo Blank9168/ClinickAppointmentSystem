@@ -29,20 +29,22 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.btnReports = new System.Windows.Forms.Button();
+            this.btnPatients = new System.Windows.Forms.Button();
+            this.btnDoctors = new System.Windows.Forms.Button();
+            this.btnManage = new System.Windows.Forms.Button();
+            this.btnDashboard = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnClose = new System.Windows.Forms.Label();
+            this.lblAdminUser = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnDashboard = new System.Windows.Forms.Button();
-            this.btnManage = new System.Windows.Forms.Button();
-            this.btnDoctors = new System.Windows.Forms.Button();
-            this.btnPatients = new System.Windows.Forms.Button();
-            this.btnReports = new System.Windows.Forms.Button();
-            this.btnLogout = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblAdminUser = new System.Windows.Forms.Label();
-            this.btnClose = new System.Windows.Forms.Label();
+            this.adminDashboardUCFrm1 = new ClinickAppointmentSystem.Forms.UserControlForms.AdminDashboardUCFrm();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -63,6 +65,85 @@
             this.panel1.Size = new System.Drawing.Size(205, 693);
             this.panel1.TabIndex = 0;
             // 
+            // btnLogout
+            // 
+            this.btnLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
+            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogout.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(60)))), ((int)(((byte)(93)))));
+            this.btnLogout.Location = new System.Drawing.Point(3, 607);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(195, 50);
+            this.btnLogout.TabIndex = 6;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.UseVisualStyleBackColor = false;
+            // 
+            // btnReports
+            // 
+            this.btnReports.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
+            this.btnReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReports.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReports.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(60)))), ((int)(((byte)(93)))));
+            this.btnReports.Location = new System.Drawing.Point(3, 452);
+            this.btnReports.Name = "btnReports";
+            this.btnReports.Size = new System.Drawing.Size(195, 50);
+            this.btnReports.TabIndex = 5;
+            this.btnReports.Text = "Reports";
+            this.btnReports.UseVisualStyleBackColor = false;
+            // 
+            // btnPatients
+            // 
+            this.btnPatients.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
+            this.btnPatients.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPatients.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPatients.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(60)))), ((int)(((byte)(93)))));
+            this.btnPatients.Location = new System.Drawing.Point(3, 396);
+            this.btnPatients.Name = "btnPatients";
+            this.btnPatients.Size = new System.Drawing.Size(195, 50);
+            this.btnPatients.TabIndex = 4;
+            this.btnPatients.Text = "Patients";
+            this.btnPatients.UseVisualStyleBackColor = false;
+            // 
+            // btnDoctors
+            // 
+            this.btnDoctors.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
+            this.btnDoctors.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDoctors.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDoctors.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(60)))), ((int)(((byte)(93)))));
+            this.btnDoctors.Location = new System.Drawing.Point(3, 340);
+            this.btnDoctors.Name = "btnDoctors";
+            this.btnDoctors.Size = new System.Drawing.Size(195, 50);
+            this.btnDoctors.TabIndex = 3;
+            this.btnDoctors.Text = "Doctors";
+            this.btnDoctors.UseVisualStyleBackColor = false;
+            // 
+            // btnManage
+            // 
+            this.btnManage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
+            this.btnManage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnManage.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnManage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(60)))), ((int)(((byte)(93)))));
+            this.btnManage.Location = new System.Drawing.Point(3, 284);
+            this.btnManage.Name = "btnManage";
+            this.btnManage.Size = new System.Drawing.Size(195, 50);
+            this.btnManage.TabIndex = 2;
+            this.btnManage.Text = "Manage Users";
+            this.btnManage.UseVisualStyleBackColor = false;
+            // 
+            // btnDashboard
+            // 
+            this.btnDashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
+            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDashboard.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(60)))), ((int)(((byte)(93)))));
+            this.btnDashboard.Location = new System.Drawing.Point(3, 228);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Size = new System.Drawing.Size(195, 50);
+            this.btnDashboard.TabIndex = 1;
+            this.btnDashboard.Text = "Dashboard";
+            this.btnDashboard.UseVisualStyleBackColor = false;
+            this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
@@ -76,9 +157,42 @@
             this.panel2.Size = new System.Drawing.Size(810, 46);
             this.panel2.TabIndex = 1;
             // 
+            // btnClose
+            // 
+            this.btnClose.AutoSize = true;
+            this.btnClose.BackColor = System.Drawing.Color.Transparent;
+            this.btnClose.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(60)))), ((int)(((byte)(93)))));
+            this.btnClose.Location = new System.Drawing.Point(777, 8);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(20, 19);
+            this.btnClose.TabIndex = 3;
+            this.btnClose.Text = "X";
+            // 
+            // lblAdminUser
+            // 
+            this.lblAdminUser.AutoSize = true;
+            this.lblAdminUser.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdminUser.Location = new System.Drawing.Point(166, 14);
+            this.lblAdminUser.Name = "lblAdminUser";
+            this.lblAdminUser.Size = new System.Drawing.Size(51, 18);
+            this.lblAdminUser.TabIndex = 1;
+            this.lblAdminUser.Text = "admin";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(37, 14);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(130, 18);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Welcome, Admin:";
+            // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.adminDashboardUCFrm1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(205, 46);
             this.panel3.Name = "panel3";
@@ -95,115 +209,12 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // btnDashboard
+            // adminDashboardUCFrm1
             // 
-            this.btnDashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
-            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDashboard.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(60)))), ((int)(((byte)(93)))));
-            this.btnDashboard.Location = new System.Drawing.Point(3, 228);
-            this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Size = new System.Drawing.Size(195, 50);
-            this.btnDashboard.TabIndex = 1;
-            this.btnDashboard.Text = "Dashboard";
-            this.btnDashboard.UseVisualStyleBackColor = false;
-            // 
-            // btnManage
-            // 
-            this.btnManage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
-            this.btnManage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnManage.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnManage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(60)))), ((int)(((byte)(93)))));
-            this.btnManage.Location = new System.Drawing.Point(3, 284);
-            this.btnManage.Name = "btnManage";
-            this.btnManage.Size = new System.Drawing.Size(195, 50);
-            this.btnManage.TabIndex = 2;
-            this.btnManage.Text = "Manage Users";
-            this.btnManage.UseVisualStyleBackColor = false;
-            // 
-            // btnDoctors
-            // 
-            this.btnDoctors.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
-            this.btnDoctors.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDoctors.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDoctors.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(60)))), ((int)(((byte)(93)))));
-            this.btnDoctors.Location = new System.Drawing.Point(3, 340);
-            this.btnDoctors.Name = "btnDoctors";
-            this.btnDoctors.Size = new System.Drawing.Size(195, 50);
-            this.btnDoctors.TabIndex = 3;
-            this.btnDoctors.Text = "Doctors";
-            this.btnDoctors.UseVisualStyleBackColor = false;
-            // 
-            // btnPatients
-            // 
-            this.btnPatients.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
-            this.btnPatients.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPatients.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPatients.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(60)))), ((int)(((byte)(93)))));
-            this.btnPatients.Location = new System.Drawing.Point(3, 396);
-            this.btnPatients.Name = "btnPatients";
-            this.btnPatients.Size = new System.Drawing.Size(195, 50);
-            this.btnPatients.TabIndex = 4;
-            this.btnPatients.Text = "Patients";
-            this.btnPatients.UseVisualStyleBackColor = false;
-            // 
-            // btnReports
-            // 
-            this.btnReports.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
-            this.btnReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReports.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReports.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(60)))), ((int)(((byte)(93)))));
-            this.btnReports.Location = new System.Drawing.Point(3, 452);
-            this.btnReports.Name = "btnReports";
-            this.btnReports.Size = new System.Drawing.Size(195, 50);
-            this.btnReports.TabIndex = 5;
-            this.btnReports.Text = "Reports";
-            this.btnReports.UseVisualStyleBackColor = false;
-            // 
-            // btnLogout
-            // 
-            this.btnLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
-            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogout.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(60)))), ((int)(((byte)(93)))));
-            this.btnLogout.Location = new System.Drawing.Point(3, 607);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(195, 50);
-            this.btnLogout.TabIndex = 6;
-            this.btnLogout.Text = "Logout";
-            this.btnLogout.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(37, 14);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 18);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Welcome, Admin:";
-            // 
-            // lblAdminUser
-            // 
-            this.lblAdminUser.AutoSize = true;
-            this.lblAdminUser.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAdminUser.Location = new System.Drawing.Point(173, 14);
-            this.lblAdminUser.Name = "lblAdminUser";
-            this.lblAdminUser.Size = new System.Drawing.Size(50, 18);
-            this.lblAdminUser.TabIndex = 1;
-            this.lblAdminUser.Text = "label2";
-            // 
-            // btnClose
-            // 
-            this.btnClose.AutoSize = true;
-            this.btnClose.BackColor = System.Drawing.Color.Transparent;
-            this.btnClose.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(60)))), ((int)(((byte)(93)))));
-            this.btnClose.Location = new System.Drawing.Point(777, 8);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(20, 19);
-            this.btnClose.TabIndex = 3;
-            this.btnClose.Text = "X";
+            this.adminDashboardUCFrm1.Location = new System.Drawing.Point(-1, -1);
+            this.adminDashboardUCFrm1.Name = "adminDashboardUCFrm1";
+            this.adminDashboardUCFrm1.Size = new System.Drawing.Size(810, 647);
+            this.adminDashboardUCFrm1.TabIndex = 0;
             // 
             // AdminFrm
             // 
@@ -220,6 +231,7 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -240,5 +252,6 @@
         private System.Windows.Forms.Label lblAdminUser;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label btnClose;
+        private UserControlForms.AdminDashboardUCFrm adminDashboardUCFrm1;
     }
 }
