@@ -51,11 +51,11 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnSortBySched = new System.Windows.Forms.Button();
+            this.btnSortByName = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -312,8 +312,8 @@
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.dataGridView1);
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.btnSortBySched);
+            this.panel2.Controls.Add(this.btnSortByName);
             this.panel2.Controls.Add(this.comboBox1);
             this.panel2.Controls.Add(this.txtSearch);
             this.panel2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -322,6 +322,39 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(790, 437);
             this.panel2.TabIndex = 1;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(248)))), ((int)(((byte)(216)))));
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(11, 50);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(767, 374);
+            this.dataGridView1.TabIndex = 4;
+            // 
+            // btnSortBySched
+            // 
+            this.btnSortBySched.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
+            this.btnSortBySched.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSortBySched.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSortBySched.Location = new System.Drawing.Point(598, 14);
+            this.btnSortBySched.Name = "btnSortBySched";
+            this.btnSortBySched.Size = new System.Drawing.Size(180, 26);
+            this.btnSortBySched.TabIndex = 3;
+            this.btnSortBySched.Text = "Sort by Schedule";
+            this.btnSortBySched.UseVisualStyleBackColor = false;
+            // 
+            // btnSortByName
+            // 
+            this.btnSortByName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
+            this.btnSortByName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSortByName.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSortByName.Location = new System.Drawing.Point(402, 14);
+            this.btnSortByName.Name = "btnSortByName";
+            this.btnSortByName.Size = new System.Drawing.Size(180, 26);
+            this.btnSortByName.TabIndex = 2;
+            this.btnSortByName.Text = "Sort by Name";
+            this.btnSortByName.UseVisualStyleBackColor = false;
             // 
             // comboBox1
             // 
@@ -341,39 +374,6 @@
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(180, 26);
             this.txtSearch.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(402, 14);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(180, 26);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Sort by Name";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(598, 14);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(180, 26);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Sort by Schedule";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(248)))), ((int)(((byte)(216)))));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(11, 50);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(767, 374);
-            this.dataGridView1.TabIndex = 4;
             // 
             // AdminDashboardUCFrm
             // 
@@ -432,8 +432,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSortBySched;
+        private System.Windows.Forms.Button btnSortByName;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
