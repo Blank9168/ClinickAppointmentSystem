@@ -51,10 +51,10 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dvgDashboard = new System.Windows.Forms.DataGridView();
             this.btnSortBySched = new System.Windows.Forms.Button();
             this.btnSortByName = new System.Windows.Forms.Button();
-            this.cmbFilter = new System.Windows.Forms.ComboBox();
+            this.cmb = new System.Windows.Forms.ComboBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -66,7 +66,7 @@
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dvgDashboard)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -311,10 +311,10 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.dataGridView1);
+            this.panel2.Controls.Add(this.dvgDashboard);
             this.panel2.Controls.Add(this.btnSortBySched);
             this.panel2.Controls.Add(this.btnSortByName);
-            this.panel2.Controls.Add(this.cmbFilter);
+            this.panel2.Controls.Add(this.cmb);
             this.panel2.Controls.Add(this.txtSearch);
             this.panel2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(60)))), ((int)(((byte)(93)))));
@@ -323,14 +323,14 @@
             this.panel2.Size = new System.Drawing.Size(790, 437);
             this.panel2.TabIndex = 1;
             // 
-            // dataGridView1
+            // dvgDashboard
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(248)))), ((int)(((byte)(216)))));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(11, 50);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(767, 374);
-            this.dataGridView1.TabIndex = 4;
+            this.dvgDashboard.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(248)))), ((int)(((byte)(216)))));
+            this.dvgDashboard.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dvgDashboard.Location = new System.Drawing.Point(11, 50);
+            this.dvgDashboard.Name = "dvgDashboard";
+            this.dvgDashboard.Size = new System.Drawing.Size(767, 374);
+            this.dvgDashboard.TabIndex = 4;
             // 
             // btnSortBySched
             // 
@@ -356,15 +356,15 @@
             this.btnSortByName.Text = "Sort by Name";
             this.btnSortByName.UseVisualStyleBackColor = false;
             // 
-            // cmbFilter
+            // cmb
             // 
-            this.cmbFilter.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbFilter.FormattingEnabled = true;
-            this.cmbFilter.Location = new System.Drawing.Point(206, 15);
-            this.cmbFilter.Name = "cmbFilter";
-            this.cmbFilter.Size = new System.Drawing.Size(180, 26);
-            this.cmbFilter.TabIndex = 1;
-            this.cmbFilter.Tag = "";
+            this.cmb.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmb.FormattingEnabled = true;
+            this.cmb.Location = new System.Drawing.Point(206, 15);
+            this.cmb.Name = "cmb";
+            this.cmb.Size = new System.Drawing.Size(180, 26);
+            this.cmb.TabIndex = 1;
+            this.cmb.Tag = "";
             // 
             // txtSearch
             // 
@@ -400,7 +400,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dvgDashboard)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -431,9 +431,9 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtSearch;
-        private System.Windows.Forms.ComboBox cmbFilter;
+        private System.Windows.Forms.ComboBox cmb;
         private System.Windows.Forms.Button btnSortBySched;
         private System.Windows.Forms.Button btnSortByName;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dvgDashboard;
     }
 }

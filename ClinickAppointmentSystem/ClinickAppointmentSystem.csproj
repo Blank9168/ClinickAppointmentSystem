@@ -91,6 +91,30 @@
     <Compile Include="Forms\UserControlForms\AdminDashboardUCFrm.Designer.cs">
       <DependentUpon>AdminDashboardUCFrm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\UserControlForms\DoctorsUCFrm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControlForms\DoctorsUCFrm.Designer.cs">
+      <DependentUpon>DoctorsUCFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControlForms\HistoryUCFrm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControlForms\HistoryUCFrm.Designer.cs">
+      <DependentUpon>HistoryUCFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControlForms\ManageUserUCFrm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControlForms\ManageUserUCFrm.Designer.cs">
+      <DependentUpon>ManageUserUCFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControlForms\PatientUCFrm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\UserControlForms\PatientUCFrm.Designer.cs">
+      <DependentUpon>PatientUCFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\WelcomeFrm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +143,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\UserControlForms\AdminDashboardUCFrm.resx">
       <DependentUpon>AdminDashboardUCFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControlForms\DoctorsUCFrm.resx">
+      <DependentUpon>DoctorsUCFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControlForms\HistoryUCFrm.resx">
+      <DependentUpon>HistoryUCFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControlForms\ManageUserUCFrm.resx">
+      <DependentUpon>ManageUserUCFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserControlForms\PatientUCFrm.resx">
+      <DependentUpon>PatientUCFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\WelcomeFrm.resx">
       <DependentUpon>WelcomeFrm.cs</DependentUpon>

@@ -35,17 +35,15 @@
             this.btnDoctors = new System.Windows.Forms.Button();
             this.btnManage = new System.Windows.Forms.Button();
             this.btnDashboard = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnClose = new System.Windows.Forms.Label();
             this.lblAdminUser = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.adminDashboardUCFrm1 = new ClinickAppointmentSystem.Forms.UserControlForms.AdminDashboardUCFrm();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -129,6 +127,7 @@
             this.btnManage.TabIndex = 2;
             this.btnManage.Text = "Manage Users";
             this.btnManage.UseVisualStyleBackColor = false;
+            this.btnManage.Click += new System.EventHandler(this.btnManage_Click);
             // 
             // btnDashboard
             // 
@@ -143,6 +142,16 @@
             this.btnDashboard.Text = "Dashboard";
             this.btnDashboard.UseVisualStyleBackColor = false;
             this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ClinickAppointmentSystem.Properties.Resources.App_logo_img;
+            this.pictureBox1.Location = new System.Drawing.Point(27, 11);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
@@ -161,6 +170,7 @@
             // 
             this.btnClose.AutoSize = true;
             this.btnClose.BackColor = System.Drawing.Color.Transparent;
+            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(60)))), ((int)(((byte)(93)))));
             this.btnClose.Location = new System.Drawing.Point(777, 8);
@@ -168,6 +178,7 @@
             this.btnClose.Size = new System.Drawing.Size(20, 19);
             this.btnClose.TabIndex = 3;
             this.btnClose.Text = "X";
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // lblAdminUser
             // 
@@ -192,29 +203,11 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.adminDashboardUCFrm1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(205, 46);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(810, 647);
             this.panel3.TabIndex = 2;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::ClinickAppointmentSystem.Properties.Resources.App_logo_img;
-            this.pictureBox1.Location = new System.Drawing.Point(27, 11);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(150, 150);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // adminDashboardUCFrm1
-            // 
-            this.adminDashboardUCFrm1.Location = new System.Drawing.Point(-1, -1);
-            this.adminDashboardUCFrm1.Name = "adminDashboardUCFrm1";
-            this.adminDashboardUCFrm1.Size = new System.Drawing.Size(810, 647);
-            this.adminDashboardUCFrm1.TabIndex = 0;
             // 
             // AdminFrm
             // 
@@ -229,10 +222,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminFrm";
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -252,6 +244,5 @@
         private System.Windows.Forms.Label lblAdminUser;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label btnClose;
-        private UserControlForms.AdminDashboardUCFrm adminDashboardUCFrm1;
     }
 }

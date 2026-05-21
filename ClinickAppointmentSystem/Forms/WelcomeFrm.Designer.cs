@@ -35,6 +35,7 @@
             // btnGetStarted
             // 
             this.btnGetStarted.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
+            this.btnGetStarted.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGetStarted.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGetStarted.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGetStarted.Location = new System.Drawing.Point(347, 437);
@@ -49,6 +50,7 @@
             // 
             this.btnClose.AutoSize = true;
             this.btnClose.BackColor = System.Drawing.Color.Transparent;
+            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.Location = new System.Drawing.Point(864, 9);
             this.btnClose.Name = "btnClose";
