@@ -337,9 +337,9 @@
             this.btnSortBySched.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
             this.btnSortBySched.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSortBySched.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSortBySched.Location = new System.Drawing.Point(598, 14);
+            this.btnSortBySched.Location = new System.Drawing.Point(598, 11);
             this.btnSortBySched.Name = "btnSortBySched";
-            this.btnSortBySched.Size = new System.Drawing.Size(180, 26);
+            this.btnSortBySched.Size = new System.Drawing.Size(180, 29);
             this.btnSortBySched.TabIndex = 3;
             this.btnSortBySched.Text = "Sort by Schedule";
             this.btnSortBySched.UseVisualStyleBackColor = false;
@@ -349,30 +349,30 @@
             this.btnSortByName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(209)))), ((int)(((byte)(215)))));
             this.btnSortByName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSortByName.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSortByName.Location = new System.Drawing.Point(402, 14);
+            this.btnSortByName.Location = new System.Drawing.Point(402, 12);
             this.btnSortByName.Name = "btnSortByName";
-            this.btnSortByName.Size = new System.Drawing.Size(180, 26);
+            this.btnSortByName.Size = new System.Drawing.Size(180, 29);
             this.btnSortByName.TabIndex = 2;
             this.btnSortByName.Text = "Sort by Name";
             this.btnSortByName.UseVisualStyleBackColor = false;
             // 
             // cmb
             // 
-            this.cmb.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmb.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmb.FormattingEnabled = true;
-            this.cmb.Location = new System.Drawing.Point(206, 15);
+            this.cmb.Location = new System.Drawing.Point(206, 11);
             this.cmb.Name = "cmb";
-            this.cmb.Size = new System.Drawing.Size(180, 26);
+            this.cmb.Size = new System.Drawing.Size(180, 30);
             this.cmb.TabIndex = 1;
             this.cmb.Tag = "";
             // 
             // txtSearch
             // 
             this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSearch.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearch.Location = new System.Drawing.Point(11, 16);
+            this.txtSearch.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearch.Location = new System.Drawing.Point(11, 11);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(180, 26);
+            this.txtSearch.Size = new System.Drawing.Size(180, 29);
             this.txtSearch.TabIndex = 0;
             // 
             // AdminDashboardUCFrm
